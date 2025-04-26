@@ -17,5 +17,25 @@
  
 ![image](https://github.com/user-attachments/assets/df29893c-1963-468c-82b9-e7f79d21439b)
 
+3. Стандартный парсинг encode/json неэффективен,
+
+![image](https://github.com/user-attachments/assets/701d216b-169a-4345-9fec-c6a13b415478)
+
+
+   Заменяем на сгенрерированный easyjson код
+
+![image](https://github.com/user-attachments/assets/b8b49e3b-9be1-4bad-8b03-1cca8ea43503)
+
+
+**Текущее решение:**
+BenchmarkFast-8     501 2183829 ns/op 583289 B/op 7740  allocs/op
+
+Образец:
+BenchmarkSolution-8 500 2782432 ns/op 559910 B/op 10422 allocs/op
+
+
+
+
+
 
 
